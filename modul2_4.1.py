@@ -16,5 +16,7 @@ for i in numbers:
     else:
         not_primes.append(i)
 
+primes.insert(0, 1)
+
 print("Primes: ", primes)
 print("Not primes: ", not_primes)
